@@ -1,0 +1,67 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #045482;
+    overflow: hidden;
+    color: #f2f2f2;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(170, 111, 2);
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(170, 111, 2);
+    color: white;
+  }
+  /* Color and weight to p */
+p {   
+    font-weight: 300;
+    color: #045482;
+}
+
+/* Color and weight to h1 h2 h3 h4 */
+h1 {
+    font-weight: 800;
+    color: #045482;
+}
+h2 {
+    font-weight: 600;
+    color: #045482;
+}
+
+h4 {
+    font-weight: 500;
+    color: #045482;
+}
+
+/* Style of the Ul, sofar only found disk and circle, not sure what initial means */
+ul {
+    list-style-type: circle;
+    list-style-position: initial;
+    color: #045482;
+}
+/* setting footer + footer p as the letters were not shown */
+ footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #045482;
+    color: white;
+  }
+
+ footer p {
+    color: white;
+  }
